@@ -1,6 +1,7 @@
 import { Card } from "react-bootstrap";
 
 function StaffCard({ name, image, titles }) {
+    
     return (
         <Card bg="dark" text="white">
             <Card.Img 

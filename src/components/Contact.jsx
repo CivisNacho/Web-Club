@@ -7,7 +7,7 @@ function Contact() {
     <div
       className="d-flex justify-content-center align-items-center vh-100"
       style={{
-        backgroundImage: "url('/contacto_fondo.jpg')",
+        backgroundImage: `url('/Web-Club/contacto_fondo_large.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

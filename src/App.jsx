@@ -13,13 +13,13 @@ function App() {
     document.title = "Grupo Tenis Corvera"
   }, [])
   return (
-      <Router>
+      <Router basename="/Web-Club/">
       <Favicon url="favicon.svg" />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="equipo_tecnico" element={<Staff />} />
-            <Route path="contacto" element={<Contact />} />
+            <Route path="/equipo_tecnico/" element={<Staff />} />
+            <Route path="/contacto/" element={<Contact />} />
           </Route>
         </Routes>
       </Router>

@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import '../styles/Home.css';
+import "../styles/Home.css";
 
 function Home() {
   const itemStyle = {
@@ -16,13 +16,13 @@ function Home() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
-        <img className="d-block w-100" src="cartelcorvera.jpeg" alt="Segunda viñeta" />
+        <img className="d-block w-100" src="cartelCorvera.jpg" alt="Segunda viñeta" />
         <Carousel.Caption style={{ backgroundColor: "#00000080" }}>
-          <h1>CURSOS DE TENIS!</h1>
+          <h1>¡CURSOS DE TENIS!</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
-        <img className="d-block w-100" src="juegosPrincipado.jpg" alt="Tercera viñeta" />
+        <img className="d-block w-100" src="fedérate.png" alt="Tercera viñeta" />
         <Carousel.Caption style={{ backgroundColor: "#00000080" }}>
           <h1>JUEGOS ESCOLARES</h1>
         </Carousel.Caption>

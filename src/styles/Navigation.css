@@ -1,0 +1,15 @@
+.nav-link {
+    margin-right: 5%;
+    white-space: nowrap;
+}
+
+.nav-dropdown{
+    margin-right: 5%;
+}
+
+
+@media (max-width: 768px) {
+    .dropdown-item {
+        text-align: center !important;
+    }
+}
